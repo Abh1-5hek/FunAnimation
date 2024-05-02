@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    background-color: #050000;
+    /* position: relative; */
+    /* cursor: none; */
+    overflow-x: hidden;
+}
+#cursor{
+    height: 30px;
+    width: 30px;
+    position: fixed;
+    border-radius: 50%;
+    background-color: #fff;
+    top: 0;
+    left: 0;
+    font-size:5px ;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    z-index: 2;
+    mix-blend-mode:difference;
+    /* transform: translate(55%,50%); */
+   
+}
+#page1{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:6%;
+    background-color:transparent;
+    color: #fff;
+    /* margin:0px -120px; */
+    position: relative;
+    /* top:-17%; */
+    height: 8%;
+    width: 100%;
+}
+nav h2{
+    font-size: 30px;
+}
+nav i{
+    font-size:30px;
+    font-weight: 800;
+    cursor: pointer;
+}
+nav input{
+    height: 50%;
+    width: 30%;
+    padding-left: 30px;
+}
+#hero{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#hero h1{
+    color: #fff;
+    font-size: 100px;
+}
+#hero h1 span{
+    display: inline-block;
+}
+#full{
+    height: 100%;
+    width: 40%;
+    background-color: rgba(255, 255, 255, 0.084);
+    position: absolute;
+    top:0;
+    right: -40%;
+    backdrop-filter:blur(30px);
+    padding: 150px 60px;
+    color: aqua;
+   
+}
+#full h4{
+    font-size: 4.5vw;
+    font-weight: 500;
+}
+#full i{
+    position: absolute;
+    top:5%;
+    right: 10%;
+    background-color: #fff;
+    border-radius:50% ;
+    padding: 5px;
+    background-color: #934fc7aa;
+    font-size: 25px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+#page2{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(48, 47, 50, 0.811);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#overlay{
+    width: 100%;
+    height: 100%;
+    background-color: #33172400;
+    position: absolute;
+    z-index: 5;
+}
+#image{
+    width: 800px;
+    height: 450px;
+    background-color: aquamarine;
+    position: relative;
+}
+
+#image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#page3{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(4, 4, 4, 0.811);  
+    position: relative;
+}
+#string{
+    height: 200px;
+    width: 100%;
+    position: absolute;
+    top:15%; */
+}
+
